@@ -6,7 +6,7 @@ input.answers[input.answers == 9] <- 0
 category = sample(1:3,20,replace = TRUE)
 
 
-# Get necessary packages
+# Get necessary packages for calculating Cronbach's alpha
 library(psych)
 
 Score <- function(key, input.answers, n.answer.op, names = NULL, category) {
